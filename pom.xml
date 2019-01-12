@@ -7,6 +7,13 @@
     <groupId>wavelytics-spring</groupId>
     <artifactId>spring-rest-example</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <distributionManagement>
+        <repository>
+            <id>elsa</id>
+            <name>My internal nexus repo</name>
+            <url>http://192.168.0.15:8081/repository/elsa/</url>
+        </repository>
+    </distributionManagement>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
