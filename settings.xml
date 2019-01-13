@@ -2,7 +2,7 @@
     <servers>
         <server>
             <id>nexus</id>
-            <username>undefspi</username>
+            <username>${bamboo.NEXUS_USERNAME}</username>
             <password>${bamboo.NEXUS_PASSWORD}</password>
         </server>
     </servers>
