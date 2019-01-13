@@ -3,7 +3,7 @@
         <server>
             <id>nexus</id>
             <username>undefspi</username>
-            <password>${env.NEXUS_PASSWORD}</password>
+            <password>$NEXUS_PASSWORD</password>
         </server>
     </servers>
 </settings>
