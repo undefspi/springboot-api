@@ -2,7 +2,7 @@
     <servers>
         <server>
             <id>nexus</id>
-            <username>$bamboo_NEXUS_USERNAME</username>
+            <username>${bambooNexusUsername}</username>
             <password>pa$$word</password>
         </server>
     </servers>
