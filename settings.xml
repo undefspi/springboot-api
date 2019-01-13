@@ -2,7 +2,7 @@
     <servers>
         <server>
             <id>nexus</id>
-            <username>${env.NEXUS_USERNAME}</username>
+            <username>undefspi</username>
             <password>${env.NEXUS_PASSWORD}</password>
         </server>
     </servers>

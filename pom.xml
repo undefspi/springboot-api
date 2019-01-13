@@ -9,9 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <distributionManagement>
         <repository>
-            <id>elsa</id>
+            <id>nexus</id>
             <name>My internal nexus repo</name>
-            <url>http://192.168.0.15:8081/repository/elsa/</url>
+            <url>http://elsamedia:8081/repository/elsa/</url>
         </repository>
     </distributionManagement>
 
