@@ -3,7 +3,7 @@
         <server>
             <id>nexus</id>
             <username>undefspi</username>
-            <password>$NEXUS_PASSWORD</password>
+            <password>${bamboo.NEXUS_PASSWORD}</password>
         </server>
     </servers>
 </settings>
