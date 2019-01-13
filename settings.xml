@@ -3,7 +3,7 @@
         <server>
             <id>nexus</id>
             <username>${bambooNexusUsername}</username>
-            <password>pa$$word</password>
+            <password>${bambooNexusPassword}</password>
         </server>
     </servers>
 </settings>
